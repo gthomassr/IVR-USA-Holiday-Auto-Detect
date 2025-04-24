@@ -1,3 +1,5 @@
+US Holidays Return
+
 MLK Day
 Fathers Day
 Presidents Day
@@ -11,13 +13,35 @@ Thanksgiving
 
 New Years Day
 Valentines Day
+Tax Day
+Juneteenth
 Independence Day
+Veterans Day
 Christmas Eve
 Christmas Day
 New Years Eve
-Juneteenth
-Tax Day
 
+Thanksgiving Eve
 Black Friday
 Good Friday
 
+CA Holidays Return
+
+Family Day
+Victoria Day
+Civic Holiday
+Labour Day
+Thanksgiving
+
+New Year's Day
+"Saint-Jean-Baptiste Day
+Canada Day
+Truth and Reconciliation Day
+Rememberance Day
+Christmas Eve
+Christmas Day
+Boxing Day
+New Years Eve
+ 
+Good Friday
+Easter Monday
