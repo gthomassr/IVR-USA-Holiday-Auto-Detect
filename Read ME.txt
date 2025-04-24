@@ -1,15 +1,17 @@
 No longer need to edit JS code.  Use case module to set/clear holidays that are derived from the JS code. 
 The 3 modules, the case, set, and clear modules can be moved to parent IVRs for cases where varying 
-BU’s have different holidays (i.e. integrators, etc).  Test Holiday is now fixed at 12/25/2022 so you only  
-need to set the testmode to 1 to test functionality. 
+BU’s have different holidays (i.e. integrators, etc).  Test Holiday now defaults to 12/25/2022.  This can
+be overridden to any date by passing in TestMode to true and testDate to date you wish to test (typically set
+in parent IVR or initiating campaign.
+
  
-The observed value can now be set to 3 condistions. 
+The observed Input value can now be set to 1 of 3 conditions. 
 0 – Only actual holidays are set 
 1 – Actual and observed holidays are set (Friday prior to Saturday and Monday following Sunday). 
 2 – only Monday following Sunday is set to accommodate customer that are open on Saturdays and 
 	and don’t observe on Fridays. 
 	
-Holidays Supported:
+US Holidays Supported:
 	New Years Day
 	Martin Luther King Day
 	Valentines Day
@@ -32,4 +34,28 @@ Holidays Supported:
 	Black Friday
 	Christmas Eve
 	Christmas Day
-	New Years Eve.
+	New Years Eve
+	Any other day will see 'holiday' = 'No Holiday'
+	
+Canadian Holidays supported.
+	New years Day
+	Family Day
+	Good Friday
+	Easter
+	Easter Monday
+	Victoria Day
+	Saint Jean Baptiste Day
+	Canada Day
+	Civic Holiday
+	Labour Day
+	Truth and Reconciliation Day
+	Thanksgiving Day
+	Christmas Eve
+	Christmas Day
+	Boxing Day
+	New years Eve	
+	Any other day will see 'holiday' = 'No Holiday'
+
+Variable 'isHoliday' will equal 'true' or 'false' depending on whether today's date matches one declared in the function.
+
+This is being incorporated into Factory Floor.
